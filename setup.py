@@ -30,7 +30,7 @@ def get_data_files():
 
 if __name__ == "__main__":
     setup(
-        name="caffeine-ng",
+        name="caffeine-ng-autostart",
         use_scm_version={
             "version_scheme": "post-release",
             "write_to": "caffeine/version.py",
@@ -41,7 +41,7 @@ if __name__ == "__main__":
         author_email="hugo@barrera.io",
         maintainer="Hugo Osvaldo Barrera",
         maintainer_email="hugo@barrera.io",
-        url="https://github.com/caffeine-ng/caffeine-ng",
+        url="https://github.com/Patrolin/caffeine-ng-autostart",
         packages=find_packages(),
         include_package_data=True,
         data_files=get_data_files(),
